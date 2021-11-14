@@ -13,4 +13,9 @@
  * @see core/modules/statistics/statistics.php
  */
 
-return require __DIR__ . '/../vendor/autoload.php';
+/*return require_once(realpath('vendor/autoload.php'));*/
+return require_once(realpath('C:/xampp/htdocs/project/maldegem1/vendor/autoload.php'));
+
+/*
+require __DIR__ . '/../vendor/autoload.php';
+*/
